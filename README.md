@@ -1,6 +1,38 @@
 # dst
 Don't Starve Together Configuration &amp; Mods
 
+## Connect
+
+```
+c_connect("xxx.xxx.xxx.xxx", 10999)
+```
+
+## Config
+
+```
+return {
+    override_enabled = true,
+    preset = SURVIVAL_TOGETHER,          -- 经典开局，协作模式
+    unprepared = {
+        mushroom = "often",              -- 增加蘑菇数量
+    },
+    misc = {
+        branching = "most",              -- 增加地图分支
+        loop = "always",                 -- 增加环形地形
+        season_start = "autumnorspring", -- 开始季节 春/秋
+        world_size = "huge",             -- 大型地图
+    },
+    animals = {
+        butterfly = "always",            -- 增加蝴蝶数量
+    },
+    resources = {
+        flint = "often",                 -- 燧石
+        grass = "often",                 -- 干草
+        rock = "often",                  -- 岩石
+    }
+}
+```
+
 ## Mods
 
 * 显示增强类
@@ -48,7 +80,8 @@ Don't Starve Together Configuration &amp; Mods
     - [Deluxe Campfires 2.11](https://steamcommunity.com/sharedfiles/filedetails/?id=444235588)
         + 豪华篝火/火球
     - [Bee Nice](https://steamcommunity.com/sharedfiles/filedetails/?id=361994110)
-        + 养蜂人帽子 采集蜂蜜不会引起蜜蜂攻击
+        + 养蜂人帽子
+        + 采集蜂蜜不会引起蜜蜂攻击
     - [Aquarium](https://steamcommunity.com/sharedfiles/filedetails/?id=387716835)
         + 鱼缸
         + 每条鱼增加15点SAN
@@ -56,14 +89,18 @@ Don't Starve Together Configuration &amp; Mods
         + 便携烹饪锅
     - [Forever light](https://steamcommunity.com/sharedfiles/filedetails/?id=784481384)
         + 长明灯
+        + 原料 萤火虫
     - [Craftable Twigs and Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=687193679)
-        + 树枝原木互相兑换 比例1:10
+        + 树枝原木互相兑换
+        + 比例1:10
     - [Craftable Marble](https://steamcommunity.com/sharedfiles/filedetails/?id=740906983)
         + 大理石可合成
     - [Craftable Gears](https://steamcommunity.com/sharedfiles/filedetails/?id=739170164)
-        + 齿轮可合成 四块石料
+        + 齿轮可合成
+        + 仅需四块石料
     - [DST Fish Farm](https://steamcommunity.com/sharedfiles/filedetails/?id=356435289)
-        + 蜂箱鱼塘 无需喂养鱼
+        + 蜂箱鱼塘
+        + 无需喂养鱼
     - [DST Advanced Farming](https://steamcommunity.com/sharedfiles/filedetails/?id=370373189)
         + 高级农场 温室
         + 香蕉树
