@@ -161,11 +161,11 @@ return {
     ["workshop-881681992"] = { enabled = true },    --Weston
     ["workshop-703758203"] = { enabled = true },    --Reisen Udongein Inaba
     ["workshop-700056809"] = { enabled = true },    --Kagerou Imaizumi
-    ["workshop-380079744"] = { enabled = true }     --Luffy
-    ["workshop-388109833"] = { enabled = true }     --Fire Fist Ace
-    ["workshop-454781545"] = { enabled = true }     --Sanji
-    ["workshop-409184357"] = { enabled = true }     --Zoro
-    ["workshop-528613635"] = { enabled = true }     --Usopp
+    ["workshop-380079744"] = { enabled = true },    --Luffy
+    ["workshop-388109833"] = { enabled = true },    --Fire Fist Ace
+    ["workshop-454781545"] = { enabled = true },    --Sanji
+    ["workshop-409184357"] = { enabled = true },    --Zoro
+    ["workshop-528613635"] = { enabled = true },    --Usopp
     ["workshop-485291255"] = { enabled = true }     --Law
 }
 
