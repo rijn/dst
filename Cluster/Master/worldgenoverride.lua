@@ -34,7 +34,7 @@ return {
 		--环状地形
 		regrowth = "default", -- "veryslow", "slow", "default", "fast", "veryfast"
 		--再生速度
-		season_start = "autumnorspring", -- "default", "winter", "spring", "summer", "autumnorspring", "winterorsummer", "random"
+		season_start = "default", -- "default", "winter", "spring", "summer", "autumnorspring", "winterorsummer", "random"
 		--开始季节
 		spring = "default", -- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
 		--春天长度
