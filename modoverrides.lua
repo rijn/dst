@@ -84,7 +84,7 @@ return {
     },
 
     --Damage Indicators
-    ["workshop-543945797"] = {
+    ["workshop-737932010"] = {
         configuration_options = {
             amount_of_numbers = "default",
             display_mode = "waving",
