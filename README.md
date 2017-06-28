@@ -13,22 +13,16 @@ c_connect("xxx.xxx.xxx.xxx", 10999)
 return {
     override_enabled = true,
     preset = SURVIVAL_TOGETHER,          -- 经典开局，协作模式
-    unprepared = {
+    overrides = {
         mushroom = "often",              -- 增加蘑菇数量
-    },
-    misc = {
         branching = "most",              -- 增加地图分支
         loop = "always",                 -- 增加环形地形
-        season_start = "autumnorspring", -- 开始季节 春/秋
+        season_start = "autumn",         -- 开始季节 秋
         world_size = "huge",             -- 大型地图
-    },
-    animals = {
-        butterfly = "always",            -- 增加蝴蝶数量
-    },
-    resources = {
+        butterfly = "often",             -- 增加蝴蝶数量
+        spiders = "often",               -- 增加蜘蛛数量
         flint = "often",                 -- 燧石
         grass = "often",                 -- 干草
-        rock = "often",                  -- 岩石
     }
 }
 ```
@@ -79,14 +73,6 @@ return {
 * 物品类
     - [Deluxe Campfires 2.11](https://steamcommunity.com/sharedfiles/filedetails/?id=444235588)
         + 豪华篝火/火球
-    - [Bee Nice](https://steamcommunity.com/sharedfiles/filedetails/?id=361994110)
-        + 养蜂人帽子
-        + 采集蜂蜜不会引起蜜蜂攻击
-    - [Aquarium](https://steamcommunity.com/sharedfiles/filedetails/?id=387716835)
-        + 鱼缸
-        + 每条鱼增加15点SAN
-    - [Portable cookpot](https://steamcommunity.com/sharedfiles/filedetails/?id=614931358)
-        + 便携烹饪锅
     - [Forever light](https://steamcommunity.com/sharedfiles/filedetails/?id=784481384)
         + 长明灯
         + 原料 萤火虫
@@ -98,18 +84,44 @@ return {
     - [Craftable Gears](https://steamcommunity.com/sharedfiles/filedetails/?id=739170164)
         + 齿轮可合成
         + 仅需四块石料
+    - [Super Wall DST](https://steamcommunity.com/sharedfiles/filedetails/?id=785295023)
+        + 超级墙
+        + 墙无限生命
+        + 反弹攻击 50
+    - [Gladius | Basic Sword](https://steamcommunity.com/sharedfiles/filedetails/?id=909055399)
+        + 武器 剑
+    - [Intelligent Ice Flingomatic](https://steamcommunity.com/sharedfiles/filedetails/?id=934638020)
+        + 智能灭火器
+        + 灭火器不扑灭营火
+        + 灭火器增加9格容积，相当于一个小箱子
+        + 燃料耗尽时自动添加容积内燃料
+* 食品类
+    - [Bee Nice](https://steamcommunity.com/sharedfiles/filedetails/?id=361994110)
+        + 养蜂人帽子
+        + 采集蜂蜜不会引起蜜蜂攻击
+    - [Aquarium](https://steamcommunity.com/sharedfiles/filedetails/?id=387716835)
+        + 鱼缸
+        + 每条鱼增加15点SAN
+    - [Portable cookpot](https://steamcommunity.com/sharedfiles/filedetails/?id=614931358)
+        + 便携烹饪锅
     - [DST Fish Farm](https://steamcommunity.com/sharedfiles/filedetails/?id=356435289)
         + 蜂箱鱼塘
         + 无需喂养鱼
     - [DST Advanced Farming](https://steamcommunity.com/sharedfiles/filedetails/?id=370373189)
         + 高级农场 温室
         + 香蕉树
-    - [Super Wall DST](https://steamcommunity.com/sharedfiles/filedetails/?id=785295023)
-        + 超级墙
-        + 墙无限生命
-        + 反弹攻击 50
+    - [Icebox Tweak + Fresher Food](https://steamcommunity.com/sharedfiles/filedetails/?id=638159924)
+        + 食物回鲜
+    - [Smarter Crock Pot Server Version](https://steamcommunity.com/sharedfiles/filedetails/?id=829519717)
+        + 智能烹饪锅，预测烹饪结果
+    - [Birds and Berries and Trees and Flowers for Friends](https://steamcommunity.com/sharedfiles/filedetails/?id=522117250)
+        + 新的鸟类、浆果、树、花
+    - [Ice Maker 3000](https://steamcommunity.com/sharedfiles/filedetails/?id=858801295)
+        + 制冰机
+    - [Deluxe Cooking Pot](https://steamcommunity.com/sharedfiles/filedetails/?id=907007729)
+        + 高级烹饪锅
 * 其他类
-    - [Advanced World Generation](https://steamcommunity.com/sharedfiles/filedetails/?id=503187227)
+    - [Advanced World Generation](https://steamcommunity.com/sharedfiles/filedetails/?id=503187227) **disabled**
         + 高级世界生成 自动在地上世界生成洞穴
 * 人物类
     - [Shiro](https://steamcommunity.com/sharedfiles/filedetails/?id=833060148)
@@ -132,4 +144,6 @@ return {
         + ![](https://steamuserimages-a.akamaihd.net/ugc/644370215581508773/7678972418F0D4A2B3940BFD3600536320064588/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
     - [Law](https://steamcommunity.com/sharedfiles/filedetails/?id=485291255)
         + ![](https://steamuserimages-a.akamaihd.net/ugc/701784661370634460/D9DEE65CFBACB650026EBD326931F3DF35055D01/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
+    - [Rem]
+    - [Ram]
 
