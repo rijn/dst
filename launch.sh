@@ -13,9 +13,9 @@ mkdir "$dontstarve_dir/$cluster_name/Caves"
 cp -f modoverrides.lua "$dontstarve_dir/$cluster_name/Master/modoverrides.lua"
 cp -f modoverrides.lua "$dontstarve_dir/$cluster_name/Caves/modoverrides.lua"
 cp -f Master/server.ini "$dontstarve_dir/$cluster_name/Master/server.ini"
-cp -f Master/worldgenoverride.lua "$dontstarve_dir/$cluster_name/Master/worldgenoverride.lua"
+cp -f Master/worldgenoverride.lua "$dontstarve_dir/$cluster_name/Master/leveldataoverride.lua"
 cp -f Caves/server.ini "$dontstarve_dir/$cluster_name/Caves/server.ini"
-cp -f Caves/worldgenoverride.lua "$dontstarve_dir/$cluster_name/Caves/worldgenoverride.lua"
+cp -f Caves/worldgenoverride.lua "$dontstarve_dir/$cluster_name/Caves/leveldataoverride.lua"
 
 function fail()
 {
