@@ -5,7 +5,7 @@ install_dir="$HOME/dontstarvetogether_dedicated_server"
 cluster_name="Cluster_1"
 dontstarve_dir="$HOME/.klei/DoNotStarveTogether"
 
-cp -f dedicated_server_mods_setup.lua "$install_dir/bin/mods/dedicated_server_mods_setup.lua"
+cp -f dedicated_server_mods_setup.lua "$install_dir/mods/dedicated_server_mods_setup.lua"
 mkdir "$dontstarve_dir/$cluster_name"
 cp -f cluster.ini "$dontstarve_dir/$cluster_name/cluster.ini"
 mkdir "$dontstarve_dir/$cluster_name/Master"
