@@ -3,11 +3,19 @@ Don't Starve Together Configuration &amp; Mods
 
 ## Connect
 
-```
-c_connect("xxx.xxx.xxx.xxx", 10999)
-```
+Please search `dst.rijn.moe` in DST.
 
-## Config
+## Have to subscribe before connect
+
+- [Damage Indicators](https://steamcommunity.com/sharedfiles/filedetails/?id=543945797)
+- [Chinese Language Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=367546858)
+- [Chinese Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=572538624)
+- [Combined Status](https://steamcommunity.com/sharedfiles/filedetails/?id=376333686)
+- [Coordinate](https://steamcommunity.com/sharedfiles/filedetails/?id=373480109)
+- [DST PickyPickyPicky](https://steamcommunity.com/sharedfiles/filedetails/?id=356398534)
+- [Geometric Placement](https://steamcommunity.com/sharedfiles/filedetails/?id=351325790)
+
+## Server configuration
 
 ```
 return {
@@ -144,6 +152,8 @@ return {
         + ![](https://steamuserimages-a.akamaihd.net/ugc/644370215581508773/7678972418F0D4A2B3940BFD3600536320064588/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
     - [Law](https://steamcommunity.com/sharedfiles/filedetails/?id=485291255)
         + ![](https://steamuserimages-a.akamaihd.net/ugc/701784661370634460/D9DEE65CFBACB650026EBD326931F3DF35055D01/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
-    - [Rem]
-    - [Ram]
+    - [Rem](https://steamcommunity.com/sharedfiles/filedetails/?id=907441365)
+        + ![](https://steamuserimages-a.akamaihd.net/ugc/85975227918170954/3DB7DF31AB687C5E6780C26F24C2DCACE70D2BD6/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
+    - [Ram](https://steamcommunity.com/sharedfiles/filedetails/?id=908771355)
+        + ![](https://steamuserimages-a.akamaihd.net/ugc/85975227917811427/7A51148B9F34C017613B95DFA091AA2E0FEC8664/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|268:268&composite-to%3D%2A%2C%2A%7C268%3A268&background-color=black)
 
